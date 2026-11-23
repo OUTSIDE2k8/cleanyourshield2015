@@ -54,6 +54,12 @@ jobs:
       - name: Debug builds, the release APK and AAB through R8, and the size gate (both flavours)
         run: ./gradlew :app:assembleDebug :app:assembleFullRelease :app:bundlePlayRelease :app:checkApkSizeRelease --console=plain
 
+      - name: Debug APK (full flavour) for sideloading
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: app-full-debug
+          path: app/build/outputs/apk/full/debug/*.apk
+
       - name: Script tests and the fixture redaction check
         run: |
           python3 -m unittest discover -s scripts/tests -p 'test_*.py' -v

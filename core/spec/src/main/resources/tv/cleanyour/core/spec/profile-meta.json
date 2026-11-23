@@ -1355,7 +1355,7 @@
       }
     },
     "nvidia-shield-tv-2017": {
-      "match": { "models": [], "devices": ["darcy"], "brand": "NVIDIA", "sdkMin": 30, "sdkMax": 30, "fingerprintPrefix": null },
+      "match": { "models": [], "devices": ["darcy", "foster"], "brand": "NVIDIA", "sdkMin": 30, "sdkMax": 30, "fingerprintPrefix": null },
       "platform": "ANDROID_TV",
       "stockLaunchers": ["com.google.android.tvlauncher"],
       "liveTv": null,
