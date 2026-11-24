@@ -1,3 +1,5 @@
+> **Este fork / This fork:** compilación no oficial de Clean Your TV con soporte para la **NVIDIA SHIELD TV 2015**. Qué es, riesgos y descarga: [SHIELD-2015.md](SHIELD-2015.md) · [Releases](../../releases). Unofficial build with SHIELD TV 2015 support; read [SHIELD-2015.md](SHIELD-2015.md) first.
+
 <p align="center">
   <img src="docs/images/banner-3-steps.png" width="800" alt="Community app for Clean Your TV. Clean your TV from your phone. No laptop. No coding agent. Open the app on your Android phone, tap Start, and the ads and bloat are gone in about five minutes. Three steps: connect, analyse, clean.">
 </p>
